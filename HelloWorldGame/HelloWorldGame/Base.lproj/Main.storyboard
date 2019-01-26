@@ -21,38 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Qa-Pv-lls">
-                                <rect key="frame" x="55" y="449" width="304" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GrB-fc-tLj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7J-hw-eEp">
-                                <rect key="frame" x="55" y="500" width="304" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWs-Xp-rj6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOw-dy-2eo">
-                                <rect key="frame" x="55" y="558" width="304" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="74o-FW-G5i"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fip-Hd-MHq">
-                                <rect key="frame" x="55" y="609" width="304" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n10-4C-v2u"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TSz-I1-g0v">
                                 <rect key="frame" x="163" y="104" width="89" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -60,14 +28,46 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uF-W2-KHW">
+                                <rect key="frame" x="65" y="433" width="244" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button1press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSW-w6-njz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xic-BK-Fm5">
+                                <rect key="frame" x="65" y="497" width="244" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button2press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulH-wR-UsY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stR-yT-Q9m">
+                                <rect key="frame" x="65" y="552" width="244" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button3press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZWH-8A-bze"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nB-LD-qGr">
+                                <rect key="frame" x="65" y="611" width="244" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button4press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hyc-qs-uQg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="button1" destination="4Qa-Pv-lls" id="IIF-bv-14b"/>
-                        <outlet property="button2" destination="f7J-hw-eEp" id="0xg-S6-agC"/>
-                        <outlet property="button3" destination="WOw-dy-2eo" id="GVg-Ui-Wrm"/>
-                        <outlet property="button4" destination="fip-Hd-MHq" id="69T-7b-Ynq"/>
+                        <outlet property="button1" destination="0uF-W2-KHW" id="Xhp-mi-asS"/>
+                        <outlet property="button2" destination="xic-BK-Fm5" id="nTs-cQ-rzR"/>
+                        <outlet property="button3" destination="stR-yT-Q9m" id="Mhd-Vu-vC4"/>
+                        <outlet property="button4" destination="8nB-LD-qGr" id="1gh-We-b1s"/>
                         <outlet property="label1" destination="TSz-I1-g0v" id="3gj-0v-fZb"/>
                     </connections>
                 </viewController>

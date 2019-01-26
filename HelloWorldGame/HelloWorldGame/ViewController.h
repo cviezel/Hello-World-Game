@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction) button1tapped : (id) sender;
 
 @end
 
