@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *button2;
 @property (weak, nonatomic) IBOutlet UIButton *button3;
 @property (weak, nonatomic) IBOutlet UIButton *button4;
+@property (weak, nonatomic) IBOutlet UILabel *label2;
 
 @end
 
@@ -23,8 +24,11 @@
 
 
 int state = 0;
+int score = 0;
+NSInteger answers[3];
 
 - (void)updateState {
+    self.label2.text = [NSString stringWithFormat:@"Score: %d", score];
     if(state == 0)
     {
         self.label1.text = @"English";
@@ -49,48 +53,94 @@ int state = 0;
         [self.button3 setTitle:@"你好世界！" forState:UIControlStateNormal];
         [self.button4 setTitle:@"早上好！" forState:UIControlStateNormal];
     }
+    if(state == 3)
+    {
+        self.label1.text = @"";
+        [self.button1 setTitle:@"Play again!" forState:UIControlStateNormal];
+        [self.button2 setTitle:@"" forState:UIControlStateNormal];
+        [self.button3 setTitle:@"" forState:UIControlStateNormal];
+        [self.button4 setTitle:@"" forState:UIControlStateNormal];
+    }
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+    answers[0] = 1;
+    answers[1] = 4;
+    answers[2] = 3;
     [self updateState];
     
 }
 
 - (IBAction)button1press:(id)sender {
-    state++;
     if(state == 3)
     {
         state = 0;
+        score = 0;
+        [self updateState];
     }
-    [self updateState];
+    else
+    {
+        if(answers[state] == 1)
+        {
+            score++;
+        }
+        state++;
+        [self updateState];
+    }
 }
 - (IBAction)button2press:(id)sender {
-    state++;
     if(state == 3)
     {
         state = 0;
+        score = 0;
+        [self updateState];
     }
-    [self updateState];
+    else
+    {
+        if(answers[state] == 2)
+        {
+            score++;
+        }
+        state++;
+        [self updateState];
+    }
 }
 - (IBAction)button3press:(id)sender {
-    state++;
     if(state == 3)
     {
         state = 0;
+        score = 0;
+        [self updateState];
     }
-    [self updateState];
+    else
+    {
+        if(answers[state] == 3)
+        {
+            score++;
+        }
+        state++;
+        [self updateState];
+    }
 }
 - (IBAction)button4press:(id)sender {
-    state++;
     if(state == 3)
     {
         state = 0;
+        score = 0;
+        [self updateState];
     }
-    [self updateState];
+    else
+    {
+        if(answers[state] == 4)
+        {
+            score++;
+        }
+        state++;
+        [self updateState];
+    }
 }
 
 
