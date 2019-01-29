@@ -1,8 +1,37 @@
+commit e1fe3cb4528ef0f7c5e76ffe2d7dfbb215cf79a0
+Merge: a671c16 d470c42
+Author: cviezel <cviezel@gmail.com>
+Date:   Tue Jan 29 12:37:22 2019 -0500
+
+    Merge branch 'master' of https://github.com/cviezel/Hello-World-Game
+
+commit a671c16849ab4110a510a876177523f4559207a3
+Author: cviezel <cviezel@gmail.com>
+Date:   Tue Jan 29 12:37:02 2019 -0500
+
+    adding git status
+
+ log.txt | 41 +++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 41 insertions(+)
+
+commit d470c42ef4d900832027cb9ca7a673e6c1892124
+Author: cviezel <cviezel@gmail.com>
+Date:   Tue Jan 29 08:58:51 2019 -0500
+
+    Update README.md
+
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
 commit 509b7186ddb30c35fb0fc48649e211ffdbe74f99
 Author: Cameron Viezel <cviezel1@bl-n25.pods.bu.int>
 Date:   Mon Jan 28 16:09:34 2019 -0500
 
     fixed alignment issues with ui
+
+ .../UserInterfaceState.xcuserstate                  | Bin 24292 -> 24332 bytes
+ .../HelloWorldGame/Base.lproj/Main.storyboard       |  16 ++++++++--------
+ 2 files changed, 8 insertions(+), 8 deletions(-)
 
 commit c98f8323e178389afc9c64ad26ba9d0f3b2dfb62
 Author: Cameron Viezel <cviezel1@bl-n25.pods.bu.int>
@@ -10,11 +39,21 @@ Date:   Mon Jan 28 16:00:17 2019 -0500
 
     implemented score
 
+ .../UserInterfaceState.xcuserstate                 | Bin 28830 -> 24292 bytes
+ .../HelloWorldGame/Base.lproj/Main.storyboard      |  17 +++---
+ HelloWorldGame/HelloWorldGame/ViewController.m     |  68 ++++++++++++++++++---
+ 3 files changed, 69 insertions(+), 16 deletions(-)
+
 commit f8e51b47637def7d4c9f3aee55bc140cfa2473f4
 Author: Cameron Viezel <cviezel1@bl-n37.pods.bu.int>
 Date:   Mon Jan 28 12:49:45 2019 -0500
 
     modified UI
+
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +++++
+ .../UserInterfaceState.xcuserstate                 | Bin 22783 -> 28830 bytes
+ .../HelloWorldGame/Base.lproj/Main.storyboard      |  33 ++++++++++++---------
+ 3 files changed, 27 insertions(+), 14 deletions(-)
 
 commit 8d828e24898929cb8078e0d32c0516ea92f480db
 Author: Cameron Viezel <cviezel1@bl-n30.pods.bu.int>
@@ -22,11 +61,23 @@ Date:   Sat Jan 26 16:09:52 2019 -0500
 
     added button functionality and messages
 
+ .../UserInterfaceState.xcuserstate                 | Bin 14754 -> 22783 bytes
+ .../xcdebugger/Breakpoints_v2.xcbkptlist           |   5 ++
+ .../HelloWorldGame/Base.lproj/Main.storyboard      |  46 ++++++++--------
+ HelloWorldGame/HelloWorldGame/ViewController.h     |   1 +
+ HelloWorldGame/HelloWorldGame/ViewController.m     |  58 ++++++++++++++++++---
+ 5 files changed, 80 insertions(+), 30 deletions(-)
+
 commit 6646a5bd54d3c1849163c00d5a79e026711baafb
 Author: Cameron Viezel <cviezel1@bl-n30.pods.bu.int>
 Date:   Sat Jan 26 15:13:04 2019 -0500
 
     designed initial ui
+
+ .../UserInterfaceState.xcuserstate                 | Bin 8456 -> 14754 bytes
+ .../HelloWorldGame/Base.lproj/Main.storyboard      |  61 +++++++++++++++++++--
+ HelloWorldGame/HelloWorldGame/ViewController.m     |  28 ++++++++++
+ 3 files changed, 85 insertions(+), 4 deletions(-)
 
 commit 322d1726e30268083817751e5c05e50d64f94dbf
 Author: Cameron Viezel <cviezel1@bl-n30.pods.bu.int>
@@ -34,8 +85,31 @@ Date:   Sat Jan 26 14:38:21 2019 -0500
 
     initial commit
 
+ .../HelloWorldGame.xcodeproj/project.pbxproj       | 530 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 8456 bytes
+ .../xcschemes/HelloWorldGame.xcscheme              | 111 +++++
+ .../xcschemes/xcschememanagement.plist             |  32 ++
+ HelloWorldGame/HelloWorldGame/AppDelegate.h        |  17 +
+ HelloWorldGame/HelloWorldGame/AppDelegate.m        |  51 ++
+ .../AppIcon.appiconset/Contents.json               |  68 +++
+ .../Base.lproj/LaunchScreen.storyboard             |  27 ++
+ .../HelloWorldGame/Base.lproj/Main.storyboard      |  26 +
+ HelloWorldGame/HelloWorldGame/Info.plist           |  45 ++
+ HelloWorldGame/HelloWorldGame/ViewController.h     |  15 +
+ HelloWorldGame/HelloWorldGame/ViewController.m     |  29 ++
+ HelloWorldGame/HelloWorldGame/main.m               |  16 +
+ .../HelloWorldGameTests/HelloWorldGameTests.m      |  39 ++
+ HelloWorldGame/HelloWorldGameTests/Info.plist      |  22 +
+ .../HelloWorldGameUITests/HelloWorldGameUITests.m  |  40 ++
+ HelloWorldGame/HelloWorldGameUITests/Info.plist    |  22 +
+ 18 files changed, 1097 insertions(+)
+
 commit 6f1931bfa93f064ec8e4fa68992cd926712ac306
 Author: cviezel <cviezel@gmail.com>
 Date:   Sat Jan 26 14:32:21 2019 -0500
 
     Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
