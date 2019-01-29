@@ -1,0 +1,41 @@
+commit 509b7186ddb30c35fb0fc48649e211ffdbe74f99
+Author: Cameron Viezel <cviezel1@bl-n25.pods.bu.int>
+Date:   Mon Jan 28 16:09:34 2019 -0500
+
+    fixed alignment issues with ui
+
+commit c98f8323e178389afc9c64ad26ba9d0f3b2dfb62
+Author: Cameron Viezel <cviezel1@bl-n25.pods.bu.int>
+Date:   Mon Jan 28 16:00:17 2019 -0500
+
+    implemented score
+
+commit f8e51b47637def7d4c9f3aee55bc140cfa2473f4
+Author: Cameron Viezel <cviezel1@bl-n37.pods.bu.int>
+Date:   Mon Jan 28 12:49:45 2019 -0500
+
+    modified UI
+
+commit 8d828e24898929cb8078e0d32c0516ea92f480db
+Author: Cameron Viezel <cviezel1@bl-n30.pods.bu.int>
+Date:   Sat Jan 26 16:09:52 2019 -0500
+
+    added button functionality and messages
+
+commit 6646a5bd54d3c1849163c00d5a79e026711baafb
+Author: Cameron Viezel <cviezel1@bl-n30.pods.bu.int>
+Date:   Sat Jan 26 15:13:04 2019 -0500
+
+    designed initial ui
+
+commit 322d1726e30268083817751e5c05e50d64f94dbf
+Author: Cameron Viezel <cviezel1@bl-n30.pods.bu.int>
+Date:   Sat Jan 26 14:38:21 2019 -0500
+
+    initial commit
+
+commit 6f1931bfa93f064ec8e4fa68992cd926712ac306
+Author: cviezel <cviezel@gmail.com>
+Date:   Sat Jan 26 14:32:21 2019 -0500
+
+    Initial commit
